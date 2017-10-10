@@ -65,7 +65,7 @@
     
     switch (streamEvent) {
         case NSStreamEventOpenCompleted: {
-			self.filesInfo = [NSMutableArray array];
+			self.filesInfo = [NSArray array];
             self.didOpenStream = YES;
             self.receivedData = [NSMutableData data];
             break;
